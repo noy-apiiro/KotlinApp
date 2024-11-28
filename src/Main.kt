@@ -41,6 +41,9 @@ fun Application.module() {
             get("/paste") {
                 call.respond(HttpStatusCode.OK, "This is the Paste API endpoint")
             }
+            get("/blabla") {
+                call.respond(HttpStatusCode.OK, "This is the Another API endpoint")
+            }
             get("/another") {
                 call.respond(HttpStatusCode.OK, "This is the Another API endpoint")
             }
