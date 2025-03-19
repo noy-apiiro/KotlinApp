@@ -63,6 +63,6 @@ class SomeController {
     @ResponseStatus(HttpStatus.OK)
     fun deleteUser(
         @PathVariable("id") userId: Int,
-    ):  String = "Deleted user: $userId"
+    ):  String = "Deleted user222: $userId"
 
 }
